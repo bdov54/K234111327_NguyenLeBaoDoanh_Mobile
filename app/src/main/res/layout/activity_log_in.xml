@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@color/login_card">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_login"
+            android:textColor="@color/login_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_username"
+            android:textColor="@color/login_label"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:hint="@string/str_hint_username"
+            android:textColor="@color/login_label"
+            android:textColorHint="@color/login_hint"
+            android:backgroundTint="@color/login_label"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_password"
+            android:textColor="@color/login_label"
+            android:textStyle="bold"
+            android:layout_marginTop="14dp" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="6dp"
+            android:hint="@string/str_hint_password"
+            android:textColor="@color/login_label"
+            android:textColorHint="@color/login_hint"
+            android:backgroundTint="@color/login_label"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:onClick="loginSystem"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/str_button_login"
+                android:textColor="@color/login_white"
+                android:backgroundTint="@color/login_button" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:onClick="exitSystem"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/str_button_exit"
+                android:textColor="@color/login_white"
+                android:backgroundTint="@color/login_button_exit" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:gravity="center"
+            android:text="@string/str_result"
+            android:textColor="@color/login_message_text"
+            android:background="@color/login_message_bg" />
+
+    </LinearLayout>
+
+</FrameLayout>

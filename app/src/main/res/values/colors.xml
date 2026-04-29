@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="login_title">#1F3A5F</color>
+    <color name="login_label">#374151</color>
+    <color name="login_hint">#9CA3AF</color>
+    <color name="login_card">#CCFFFFFF</color>
+    <color name="login_button">#6C63FF</color>
+    <color name="login_button_exit">#9E9E9E</color>
+    <color name="login_white">#FFFFFF</color>
+    <color name="login_message_bg">#F3F4F6</color>
+    <color name="login_message_text">#111827</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">K23411TEApp</string>
+    <string name="str_university">Trường Đại học Kinh tế - Luật</string>
+    <string name="str_your_major">Hiển thị chuyên ngành</string>
+    <string name="str_my_major">Khoa học dữ lieu</string>
+    <string name="str_login">Đăng nhập hệ thống</string>
+    <string name="str_username">User Name:</string>
+    <string name="str_hint_username">Enter your name here!</string>
+    <string name="str_password">"Password: "</string>
+    <string name="str_hint_password">Enter your password here</string>
+    <string name="str_button_login">Login</string>
+    <string name="str_button_exit">Exit</string>
+    <string name="str_login_sucessful">ĐĂNG NHẬP THÀNH CÔNG!!</string>
+    <string name="str_login_fail">ĐĂNG NHẬP THẤT BẠI!!</string>
+    <string name="str_result" />
+</resources>
